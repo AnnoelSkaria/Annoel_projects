@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hospital_homepage</title>
+	<style>
+* {
+  box-sizing: border-box;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="navigation"] {
+  float: right;
+  padding: 15px;
+}
+[class*="aside"] {
+  /*float: left;*/
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color:#BD4B4B;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color:#DE8971;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  /*background-color: #0099cc;*/
+  background-color:#BD4B4B;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 15px;
+   bottom:0;
+   font-size: 10px;
+   width: 100%;
+   height: 50px;
+   text-align: bottom;
+}
+.navigation
+  {
+	overflow: hidden;
+	background-color: #DE8971 ;
+	border-radius: 20px;	
+	border: 2px solid black;
+
+}
+.navigation  a 
+{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navigation a:hover
+{
+	background-color: white;
+	color: green
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20% ;
+  height: 30%;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:#F8485E;
+  box-shadow: 4px;
+}
+.column a:hover
+{
+	background-color: white;
+	color: green
+	
+    
+}
+.column :hover img
+{
+	transform: scale(1.5);
+}
+body
+{
+	 background-color:#FAF3F3;
+}
+
+
+/* Clear floats after rows */
+ * {
+  box-sizing: border-box;
+}
+			
+</style>
+</head>
+	<body>
+	<div class="header">
+  		<h1 align="center">MEDIXO</h1>
+	</div>
+	<br>
+​	<div class="navigation">
+		<a href="./newuser.html">New User</a>
+    	<a href="./login.html">Login</a>
+    	<a href="./question.html">Ask a Question</a>
+    	
+	</div>​
+  	<div class="col-6 ">
+    	<h1>About the Clinic</h1>
+    	<p>The Medixo has been developed to override the problem prevailing the practising manual system.  If you have a health problem with your head or neck, your doctor might recommend that you see an otolaryngologist. That's someone who treats issues in your ears, nose, or throat as well as related areas in your head and neck. Also called the ENT specialist. We the Medixo provides you with best doctors and the best facilities. We are experienced in the field, so we know the requirements of the public. With their support the medixo group has completed 15 glorious years. Again we expect the same cooperation from you.
+
+		</p>
+  	</div>
+​	 <div class="aside">
+      	<div class="row">
+  			<div class="column">
+    			<a href="./apponitment.html">
+      				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnGqoW8LfvHs57mRPjG2LxA3Tnmq-6-jBtjg&usqp=CAU" alt="DR Rahul">
+      			</a>
+      			<h3>Dr. Rahul</h3>
+      			<p>
+      				Senior consaltant
+      			<h5>MBBS,DLO,FACGE</h5>
+      			</p>
+      		</div>
+  		<div class="column">
+    		<a href="./apponitment.html">
+    			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqNAUmthcK3flPPRngthxRl2Y4GhYW_b2XAw&usqp=CAU" alt="Dr Ravi">
+    		</a>
+      		<h3>Dr. Ravi</h3>
+      		<p>
+      			HEAD OF THE DEPATRTMENT
+      			<h5>MBBS,DLO,FACGE,MS(ENT)</h5>
+      		</p>
+    	</div>
+  		<div class="column">
+   			<a href="./apponitment.html">
+    			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_RYwKte3XWVR_TYVIO_cNAb2lf-ceJRkrw&usqp=CAU" alt="Dr Steffi" >
+    		</a>
+    		<h3>Dr. Steffi</h3>
+    		<p>
+    			Junior resident
+      			<h5>MBBS,DLO</h5>
+    		</p>  
+ 		</div>
+ 		<div class="column">
+    			<a href="./apponitment.html">
+      				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVVkkIW0sfqAIet3JwKGxwUlCWXtWlGbCKA&usqp=CAU" alt="DR Rishin">
+      			</a>
+      			<h3> Dr.Rishin</h3>
+      			<p>
+      				Senior consaltant
+      			<h5>MBBS,DLO,FACGE</h5>
+      			</p>
+      		</div>
+      	<div class="column">
+    			<a href="./apponitment.html">
+      				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiEhYexwr_kNPV32rOG5mQLhCmfUXukRa1pQ&usqp=CAU" alt="DR Amal">
+      			</a>
+      			<h3>Dr.Amal</h3>
+      			<p>
+      				Senior consaltant
+      			<h5>MBBS,DLO,FACGE</h5>
+      			</p>
+      		</div>
+	</div>
+	</div>​
+<div class="footer">
+		 Contact us : <a href="">abc@gmail.com</a> <br>
+  		 Location:<a href="https://www.google.com/maps/place/Government+Medical+College,+Kozhikode/@11.272211,75.8350092,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba65c7619ac47c3:0x2749e5ee9d9f6e74!8m2!3d11.272211!4d75.8371979">google map location</a><br>
+    	 Phone number: <a href="">9745113660</a><br>
+    	 <br>
+    
+  
+  </div>
+
+</body>
+</html>
